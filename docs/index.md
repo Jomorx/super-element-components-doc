@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  name: Super Element Components
+  text: 二次封装的ElementPlus组件库
+  tagline: Know More...
   image:
     src: /img/vue3elp.png
     alt: VitePress
@@ -14,5 +14,5 @@ hero:
       link: /guide/introduction
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/jiumolixin/Super-Element
 ---

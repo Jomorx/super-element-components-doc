@@ -26,26 +26,11 @@ import "element-plus/dist/index.css";
 import SEP from "super-element-components";
 // 完整引入SEP样式
 import "super-element-components/style.css";
-//导入elementplus 图标
-import * as Icons from "@element-plus/icons";
-import { toLine } from "./utils";
 
 const app = createApp(App);
-for (let i in Icons) {
-  app.component(`el-icon-${toLine(i)}`, (Icons as any)[i]);
-}
 app.use(ElementPlus);
 app.use(SEP);
 app.mount("#app");
-```
-
-> utils.ts
-
-```ts
-//把驼峰转换为横杆
-export const toLine = (value: string) => {
-  return value.replace(/(A-Z)g/, "-$1").toLocaleLowerCase();
-};
 ```
 
 ## 按需导入
@@ -67,22 +52,10 @@ import menu from "super-element-components";
 import "super-element-components/menu/style.css";
 //导入elementplus 图标
 import * as Icons from "@element-plus/icons";
-import { toLine } from "./utils";
 
 const app = createApp(App);
-for (let i in Icons) {
-  app.component(`el-icon-${toLine(i)}`, (Icons as any)[i]);
-}
 app.use(ElementPlus);
 app.use(Menu);
 app.mount("#app");
 ```
 
-> utils.ts
-
-```ts
-//把驼峰转换为横杆
-export const toLine = (value: string) => {
-  return value.replace(/(A-Z)g/, "-$1").toLocaleLowerCase();
-};
-```

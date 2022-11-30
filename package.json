@@ -15,5 +15,10 @@
   "devDependencies": {
     "vitepress": "1.0.0-alpha.29",
     "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "@element-plus/icons": "0.0.11",
+    "element-plus": "2.1.11",
+    "super-element-components": "1.0.5"
   }
 }

@@ -14,6 +14,17 @@ export default {
           { text: "快速开始", link: "/guide/getting-started" },
         ],
       },
+      {
+        text: "基础",
+        items: [
+          { text: "图标选择", link: "/components/chooseIcon" },
+          { text: "城市选择", link: "/components/chooseCity" },
+          { text: "趋势标记", link: "/components/trend" },
+
+          { text: "日期选择", link: "/components/chooseDate" },
+        ],
+      },
     ],
   },
+  base: "/",
 };
